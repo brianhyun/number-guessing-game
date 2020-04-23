@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Number Guessing Game</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Manrope:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-container">
+        <div class="title-description">
+          <h1 id="game-title">Number<br> Guessing Game</h1>
+          <p class="game-description">Guess a number between 0 and 100. We'll give you 10 tries!
+            Sound hard? Don't worry! We'll provide hints along the way so you don't give up in frustration.</p>
+        </div>
+        <div class="input-section">
+          <input class="user-num-guess" type="number" name="number" value="" placeholder="Enter a number between 0 and 100" min="0" max="100" step="1">
+          <button class="btn" type="button" name="button">Submit</button>
+        </div>
+      </div>
+      <div class="right-container">
+        <p class="update-info">Submit a number to get started!</p>
+        <p class="tries">Tries Left: 10</p>
+        <button class="play-again-button" type="button" name="button">Play Again</button>
+      </div>
+    </div>
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="scripts/index.js" charset="utf-8"></script>
+  </body>
+</html>
